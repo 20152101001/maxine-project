@@ -1,0 +1,5 @@
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.compiler.hsail/src/com/oracle/graal/compiler/hsail/CompileAndDispatch.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.compiler.hsail/src/com/oracle/graal/compiler/hsail/ForEachToGraal.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.compiler.hsail/src/com/oracle/graal/compiler/hsail/HSAILBackend.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.compiler.hsail/src/com/oracle/graal/compiler/hsail/HSAILCompilationResult.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.compiler.hsail/src/com/oracle/graal/compiler/hsail/HSAILLIRGenerator.java

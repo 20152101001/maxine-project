@@ -1,0 +1,4 @@
+com.oracle.max.vm.ext.jvmti
+com.sun.max.jdwp.vm
+com.oracle.max.elf
+com.oracle.max.hcfdis

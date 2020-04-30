@@ -1,0 +1,7 @@
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.word/src/com/oracle/graal/word/Pointer.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.word/src/com/oracle/graal/word/Signed.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.word/src/com/oracle/graal/word/Unsigned.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.word/src/com/oracle/graal/word/Word.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.word/src/com/oracle/graal/word/WordBase.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.word/src/com/oracle/graal/word/phases/WordTypeRewriterPhase.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.word/src/com/oracle/graal/word/phases/WordTypeVerificationPhase.java

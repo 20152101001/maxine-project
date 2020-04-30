@@ -1,0 +1,7 @@
+ServiceProcessor
+Options
+com.oracle.graal.api.runtime
+com.oracle.graal.virtual
+com.oracle.graal.loop
+com.oracle.graal.alloc
+com.oracle.graal.lir

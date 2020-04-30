@@ -1,0 +1,17 @@
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.amd64/src/com/oracle/graal/lir/amd64/AMD64AddressValue.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.amd64/src/com/oracle/graal/lir/amd64/AMD64Arithmetic.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.amd64/src/com/oracle/graal/lir/amd64/AMD64BitManipulationOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.amd64/src/com/oracle/graal/lir/amd64/AMD64BreakpointOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.amd64/src/com/oracle/graal/lir/amd64/AMD64ByteSwapOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.amd64/src/com/oracle/graal/lir/amd64/AMD64Call.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.amd64/src/com/oracle/graal/lir/amd64/AMD64Compare.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.amd64/src/com/oracle/graal/lir/amd64/AMD64ControlFlow.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.amd64/src/com/oracle/graal/lir/amd64/AMD64FrameMap.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.amd64/src/com/oracle/graal/lir/amd64/AMD64LIRInstruction.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.amd64/src/com/oracle/graal/lir/amd64/AMD64MathIntrinsicOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.amd64/src/com/oracle/graal/lir/amd64/AMD64Move.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.amd64/src/com/oracle/graal/lir/amd64/AMD64RegistersPreservationOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.amd64/src/com/oracle/graal/lir/amd64/AMD64RestoreRegistersOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.amd64/src/com/oracle/graal/lir/amd64/AMD64SaveRegistersOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.amd64/src/com/oracle/graal/lir/amd64/AMD64TestOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.amd64/src/com/oracle/graal/lir/amd64/AMD64ZapRegistersOp.java

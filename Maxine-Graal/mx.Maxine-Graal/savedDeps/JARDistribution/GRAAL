@@ -1,0 +1,6 @@
+com.oracle.graal.hotspot.amd64
+com.oracle.graal.truffle
+com.oracle.graal.truffle.printer
+com.oracle.graal.hotspot.sparc
+com.oracle.graal.hotspot
+com.oracle.graal.compiler.hsail

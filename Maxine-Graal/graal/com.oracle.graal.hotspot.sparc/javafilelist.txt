@@ -1,0 +1,17 @@
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.hotspot.sparc/src/com/oracle/graal/hotspot/sparc/SPARCDeoptimizeOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.hotspot.sparc/src/com/oracle/graal/hotspot/sparc/SPARCHotSpotBackend.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.hotspot.sparc/src/com/oracle/graal/hotspot/sparc/SPARCHotSpotCRuntimeCallEpilogueOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.hotspot.sparc/src/com/oracle/graal/hotspot/sparc/SPARCHotSpotCRuntimeCallPrologueOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.hotspot.sparc/src/com/oracle/graal/hotspot/sparc/SPARCHotSpotDeoptimizeCallerOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.hotspot.sparc/src/com/oracle/graal/hotspot/sparc/SPARCHotSpotEpilogueOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.hotspot.sparc/src/com/oracle/graal/hotspot/sparc/SPARCHotSpotGraalRuntime.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.hotspot.sparc/src/com/oracle/graal/hotspot/sparc/SPARCHotSpotJumpToExceptionHandlerInCallerOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.hotspot.sparc/src/com/oracle/graal/hotspot/sparc/SPARCHotSpotLIRGenerator.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.hotspot.sparc/src/com/oracle/graal/hotspot/sparc/SPARCHotSpotPatchReturnAddressOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.hotspot.sparc/src/com/oracle/graal/hotspot/sparc/SPARCHotSpotRegisterConfig.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.hotspot.sparc/src/com/oracle/graal/hotspot/sparc/SPARCHotSpotRuntime.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.hotspot.sparc/src/com/oracle/graal/hotspot/sparc/SPARCHotSpotUnwindOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.hotspot.sparc/src/com/oracle/graal/hotspot/sparc/SPARCHotspotDirectStaticCallOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.hotspot.sparc/src/com/oracle/graal/hotspot/sparc/SPARCHotspotDirectVirtualCallOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.hotspot.sparc/src/com/oracle/graal/hotspot/sparc/SPARCIndirectCallOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.hotspot.sparc/src/com/oracle/graal/hotspot/sparc/SPARCSafepointOp.java

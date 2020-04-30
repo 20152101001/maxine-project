@@ -1,0 +1,3 @@
+JUNIT
+com.oracle.graal.api.meta
+com.oracle.graal.api.runtime

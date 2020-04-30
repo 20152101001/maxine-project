@@ -1,0 +1,5 @@
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.replacements.verifier/src/com/oracle/graal/replacements/verifier/APHotSpotSignature.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.replacements.verifier/src/com/oracle/graal/replacements/verifier/AbstractVerifier.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.replacements.verifier/src/com/oracle/graal/replacements/verifier/ClassSubstitutionVerifier.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.replacements.verifier/src/com/oracle/graal/replacements/verifier/MethodSubstitutionVerifier.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.replacements.verifier/src/com/oracle/graal/replacements/verifier/VerifierAnnotationProcessor.java

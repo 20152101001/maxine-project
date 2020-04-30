@@ -1,0 +1,13 @@
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.sparc/src/com/oracle/graal/lir/sparc/SPARCAddressValue.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.sparc/src/com/oracle/graal/lir/sparc/SPARCArithmetic.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.sparc/src/com/oracle/graal/lir/sparc/SPARCBitManipulationOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.sparc/src/com/oracle/graal/lir/sparc/SPARCBreakpointOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.sparc/src/com/oracle/graal/lir/sparc/SPARCByteSwapOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.sparc/src/com/oracle/graal/lir/sparc/SPARCCall.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.sparc/src/com/oracle/graal/lir/sparc/SPARCCompare.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.sparc/src/com/oracle/graal/lir/sparc/SPARCControlFlow.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.sparc/src/com/oracle/graal/lir/sparc/SPARCFrameMap.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.sparc/src/com/oracle/graal/lir/sparc/SPARCLIRInstruction.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.sparc/src/com/oracle/graal/lir/sparc/SPARCMathIntrinsicOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.sparc/src/com/oracle/graal/lir/sparc/SPARCMove.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.sparc/src/com/oracle/graal/lir/sparc/SPARCTestOp.java

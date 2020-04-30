@@ -1,0 +1,8 @@
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.hsail/src/com/oracle/graal/lir/hsail/HSAILAddressValue.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.hsail/src/com/oracle/graal/lir/hsail/HSAILArithmetic.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.hsail/src/com/oracle/graal/lir/hsail/HSAILBitManipulationOp.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.hsail/src/com/oracle/graal/lir/hsail/HSAILCompare.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.hsail/src/com/oracle/graal/lir/hsail/HSAILControlFlow.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.hsail/src/com/oracle/graal/lir/hsail/HSAILFrameMap.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.hsail/src/com/oracle/graal/lir/hsail/HSAILLIRInstruction.java
+/root/maxine-src/Maxine-Graal/graal/com.oracle.graal.lir.hsail/src/com/oracle/graal/lir/hsail/HSAILMove.java
