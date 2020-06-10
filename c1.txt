@@ -1,0 +1,187 @@
+CompilerOracle: compileonly *HelloWorldLoop.main
+CompilerOracle: compileonly *HelloWorldLoop.increment
+Hello World!
+Loaded disassembler from /usr/lib/jvm/java-8-openjdk-arm64/jre/lib/aarch64/server/hsdis-aarch64.so
+Decoding compiled method 0x0000ffff94179d10:
+Code:
+[Disassembling for mach='aarch64']
+[Entry Point]
+[Verified Entry Point]
+[Constants]
+  # {method} {0x0000ffffa24d23a0} 'increment' '(I)I' in 'HelloWorldLoop'
+  # parm0:    c_rarg1   = int
+  #           [sp+0x40]  (sp of caller)
+  0x0000ffff94179e40: nop
+  0x0000ffff94179e44: orr	x9, xzr, #0xffffffffffffc000
+  0x0000ffff94179e48: str	xzr, [sp, x9]
+  0x0000ffff94179e4c: sub	sp, sp, #0x40
+  0x0000ffff94179e50: stp	x29, x30, [sp, #48]  ;*iload_0
+                                                ; - HelloWorldLoop::increment@0 (line 14)
+
+  0x0000ffff94179e54: add	w0, w1, #0x1
+  0x0000ffff94179e58: ldp	x29, x30, [sp, #48]
+  0x0000ffff94179e5c: add	sp, sp, #0x40
+  0x0000ffff94179e60: adrp	x8, 0x0000ffffa5287000
+                                                ;   {poll_return}
+  0x0000ffff94179e64: ldr	wzr, [x8]       ;   {poll_return}
+  0x0000ffff94179e68: ret
+  0x0000ffff94179e6c: nop
+  0x0000ffff94179e70: nop
+  0x0000ffff94179e74: ldr	x0, [x28, #784]
+  0x0000ffff94179e78: str	xzr, [x28, #784]
+  0x0000ffff94179e7c: str	xzr, [x28, #792]
+  0x0000ffff94179e80: ldp	x29, x30, [sp, #48]
+  0x0000ffff94179e84: add	sp, sp, #0x40
+  0x0000ffff94179e88: b	0x0000ffff940da980      ;   {runtime_call}
+  0x0000ffff94179e8c: .inst	0x00000000 ; undefined
+  0x0000ffff94179e90: .inst	0x00000000 ; undefined
+  0x0000ffff94179e94: .inst	0x00000000 ; undefined
+  0x0000ffff94179e98: .inst	0x00000000 ; undefined
+  0x0000ffff94179e9c: .inst	0x00000000 ; undefined
+  0x0000ffff94179ea0: .inst	0x00000000 ; undefined
+  0x0000ffff94179ea4: .inst	0x00000000 ; undefined
+  0x0000ffff94179ea8: .inst	0x00000000 ; undefined
+  0x0000ffff94179eac: .inst	0x00000000 ; undefined
+  0x0000ffff94179eb0: .inst	0x00000000 ; undefined
+  0x0000ffff94179eb4: .inst	0x00000000 ; undefined
+  0x0000ffff94179eb8: .inst	0x00000000 ; undefined
+  0x0000ffff94179ebc: .inst	0x00000000 ; undefined
+[Exception Handler]
+[Stub Code]
+  0x0000ffff94179ec0: bl	0x0000ffff94169880  ;   {no_reloc}
+[Deopt Handler Code]
+  0x0000ffff94179ec4: adr	x30, 0x0000ffff94179ec4
+  0x0000ffff94179ec8: b	0x0000ffff940b35c0      ;   {runtime_call}
+  0x0000ffff94179ecc: .inst	0x00000000 ; undefined
+Decoding compiled method 0x0000ffff94179f50:
+Code:
+[Entry Point]
+[Verified Entry Point]
+[Constants]
+  # {method} {0x0000ffffa24d22f8} 'main' '([Ljava/lang/String;)V' in 'HelloWorldLoop'
+  0x0000ffff9417a0c0: nop
+  0x0000ffff9417a0c4: orr	x9, xzr, #0xffffffffffffc000
+  0x0000ffff9417a0c8: str	xzr, [sp, x9]
+  0x0000ffff9417a0cc: sub	sp, sp, #0x50
+  0x0000ffff9417a0d0: stp	x29, x30, [sp, #64]
+  0x0000ffff9417a0d4: mov	x2, #0xc78                 	// #3192
+                                                ;   {oop(a 'java/lang/Class' = 'java/lang/System')}
+  0x0000ffff9417a0d8: movk	x2, #0xd750, lsl #16
+  0x0000ffff9417a0dc: movk	x2, #0x0, lsl #32
+  0x0000ffff9417a0e0: ldr	w1, [x2, #108]  ;*getstatic out
+                                                ; - HelloWorldLoop::main@0 (line 3)
+
+  0x0000ffff9417a0e4: ldr	xzr, [x1]       ; implicit exception: dispatches to 0x0000ffff9417a190
+  0x0000ffff9417a0e8: mov	x2, #0x1c00                	// #7168
+                                                ;   {oop("Hello World!")}
+  0x0000ffff9417a0ec: movk	x2, #0xd757, lsl #16
+  0x0000ffff9417a0f0: movk	x2, #0x0, lsl #32  ;*invokevirtual println
+                                                ; - HelloWorldLoop::main@5 (line 3)
+
+  0x0000ffff9417a0f4: bl	0x0000ffff940b2140  ; OopMap{off=56}
+                                                ;*invokevirtual println
+                                                ; - HelloWorldLoop::main@5 (line 3)
+                                                ;   {optimized virtual_call}
+  0x0000ffff9417a0f8: movz	w0, #0x0, lsl #16
+  0x0000ffff9417a0fc: b	0x0000ffff9417a110      ;*iload_1
+                                                ; - HelloWorldLoop::main@10 (line 6)
+
+  0x0000ffff9417a100: add	w2, w0, #0x1
+  0x0000ffff9417a104: adrp	x8, 0x0000ffffa5287000
+                                                ; OopMap{off=72}
+                                                ;*goto
+                                                ; - HelloWorldLoop::main@21 (line 7)
+                                                ;   {poll}
+  0x0000ffff9417a108: ldr	wzr, [x8]       ;   {poll}
+  0x0000ffff9417a10c: mov	x0, x2          ;*goto
+                                                ; - HelloWorldLoop::main@21 (line 7)
+
+  0x0000ffff9417a110: mov	w2, #0x4240                	// #16960
+  0x0000ffff9417a114: movk	w2, #0xf, lsl #16
+  0x0000ffff9417a118: cmp	w0, w2
+  0x0000ffff9417a11c: b.lt	0x0000ffff9417a100  // b.tstop
+                                                ;*if_icmpge
+                                                ; - HelloWorldLoop::main@13 (line 6)
+
+  0x0000ffff9417a120: mov	x2, #0xc78                 	// #3192
+                                                ;   {oop(a 'java/lang/Class' = 'java/lang/System')}
+  0x0000ffff9417a124: movk	x2, #0xd750, lsl #16
+  0x0000ffff9417a128: movk	x2, #0x0, lsl #32
+  0x0000ffff9417a12c: ldr	w1, [x2, #108]  ;*getstatic out
+                                                ; - HelloWorldLoop::main@24 (line 10)
+
+  0x0000ffff9417a130: ldr	xzr, [x1]       ; implicit exception: dispatches to 0x0000ffff9417a194
+  0x0000ffff9417a134: mov	x2, x0          ;*invokevirtual println
+                                                ; - HelloWorldLoop::main@28 (line 10)
+
+  0x0000ffff9417a138: bl	0x0000ffff940b2140  ; OopMap{off=124}
+                                                ;*invokevirtual println
+                                                ; - HelloWorldLoop::main@28 (line 10)
+                                                ;   {optimized virtual_call}
+  0x0000ffff9417a13c: ldp	x29, x30, [sp, #64]
+  0x0000ffff9417a140: add	sp, sp, #0x50
+  0x0000ffff9417a144: adrp	x8, 0x0000ffffa5287000
+                                                ;   {poll_return}
+  0x0000ffff9417a148: ldr	wzr, [x8]       ;   {poll_return}
+  0x0000ffff9417a14c: ret                       ;*return
+                                                ; - HelloWorldLoop::main@31 (line 11)
+
+  0x0000ffff9417a150: nop
+  0x0000ffff9417a154: orr	x9, xzr, #0xffffffffffffc000
+  0x0000ffff9417a158: str	xzr, [sp, x9]
+  0x0000ffff9417a15c: sub	sp, sp, #0x50
+  0x0000ffff9417a160: stp	x29, x30, [sp, #64]
+  0x0000ffff9417a164: ldr	w2, [x1]
+  0x0000ffff9417a168: mov	x0, x1
+  0x0000ffff9417a16c: str	w2, [sp, #48]
+  0x0000ffff9417a170: mov	x8, #0xe778                	// #59256
+                                                ;   {runtime_call}
+  0x0000ffff9417a174: movk	x8, #0xa4ba, lsl #16
+  0x0000ffff9417a178: movk	x8, #0xffff, lsl #32
+  0x0000ffff9417a17c: blr	x8
+  0x0000ffff9417a180: isb
+  0x0000ffff9417a184: ldr	w2, [sp, #48]
+  0x0000ffff9417a188: mov	x0, x2
+  0x0000ffff9417a18c: b	0x0000ffff9417a110
+  0x0000ffff9417a190: bl	0x0000ffff94167a80  ; OopMap{c_rarg1=Oop off=212}
+                                                ;*invokevirtual println
+                                                ; - HelloWorldLoop::main@5 (line 3)
+                                                ;   {runtime_call}
+  0x0000ffff9417a194: bl	0x0000ffff94167a80  ; OopMap{c_rarg1=Oop off=216}
+                                                ;*invokevirtual println
+                                                ; - HelloWorldLoop::main@28 (line 10)
+                                                ;   {runtime_call}
+  0x0000ffff9417a198: nop
+  0x0000ffff9417a19c: nop
+  0x0000ffff9417a1a0: ldr	x0, [x28, #784]
+  0x0000ffff9417a1a4: str	xzr, [x28, #784]
+  0x0000ffff9417a1a8: str	xzr, [x28, #792]
+  0x0000ffff9417a1ac: ldp	x29, x30, [sp, #64]
+  0x0000ffff9417a1b0: add	sp, sp, #0x50
+  0x0000ffff9417a1b4: b	0x0000ffff940da980      ;   {runtime_call}
+  0x0000ffff9417a1b8: .inst	0x00000000 ; undefined
+  0x0000ffff9417a1bc: .inst	0x00000000 ; undefined
+[Stub Code]
+  0x0000ffff9417a1c0: mov	x12, #0x0                   	// #0
+                                                ;   {no_reloc}
+  0x0000ffff9417a1c4: movk	x12, #0x0, lsl #16
+  0x0000ffff9417a1c8: movk	x12, #0x0, lsl #32
+  0x0000ffff9417a1cc: mov	x8, #0x0                   	// #0
+  0x0000ffff9417a1d0: movk	x8, #0x0, lsl #16
+  0x0000ffff9417a1d4: movk	x8, #0x0, lsl #32
+  0x0000ffff9417a1d8: br	x8
+  0x0000ffff9417a1dc: mov	x12, #0x0                   	// #0
+                                                ;   {static_stub}
+  0x0000ffff9417a1e0: movk	x12, #0x0, lsl #16
+  0x0000ffff9417a1e4: movk	x12, #0x0, lsl #32
+  0x0000ffff9417a1e8: mov	x8, #0x0                   	// #0
+  0x0000ffff9417a1ec: movk	x8, #0x0, lsl #16
+  0x0000ffff9417a1f0: movk	x8, #0x0, lsl #32
+  0x0000ffff9417a1f4: br	x8
+[Exception Handler]
+  0x0000ffff9417a1f8: bl	0x0000ffff94169880  ;   {runtime_call}
+[Deopt Handler Code]
+  0x0000ffff9417a1fc: adr	x30, 0x0000ffff9417a1fc
+  0x0000ffff9417a200: b	0x0000ffff940b35c0      ;   {runtime_call}
+  0x0000ffff9417a204: .inst	0x00000000 ; undefined
+1000000

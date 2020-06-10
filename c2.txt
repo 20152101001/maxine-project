@@ -1,0 +1,97 @@
+CompilerOracle: compileonly *HelloWorldLoop.main
+CompilerOracle: compileonly *HelloWorldLoop.increment
+Hello World!
+Loaded disassembler from /usr/lib/jvm/java-8-openjdk-arm64/jre/lib/aarch64/server/hsdis-aarch64.so
+Decoding compiled method 0x0000ffff7d0e8850:
+Code:
+[Disassembling for mach='aarch64']
+[Entry Point]
+[Verified Entry Point]
+[Constants]
+  # {method} {0x0000ffff84d3c3a0} 'increment' '(I)I' in 'HelloWorldLoop'
+  # parm0:    c_rarg1   = int
+  #           [sp+0x20]  (sp of caller)
+  0x0000ffff7d0e8980: nop
+  0x0000ffff7d0e8984: sub	sp, sp, #0x20
+  0x0000ffff7d0e8988: stp	x29, x30, [sp, #16]  ;*synchronization entry
+                                                ; - HelloWorldLoop::increment@-1 (line 14)
+
+  0x0000ffff7d0e898c: add	w0, w1, #0x1    ;*iadd
+                                                ; - HelloWorldLoop::increment@2 (line 14)
+
+  0x0000ffff7d0e8990: ldp	x29, x30, [sp, #16]
+  0x0000ffff7d0e8994: add	sp, sp, #0x20
+  0x0000ffff7d0e8998: adrp	x8, 0x0000ffff879b1000
+                                                ;   {poll_return}
+  0x0000ffff7d0e899c: ldr	wzr, [x8]       ;   {poll_return}
+  0x0000ffff7d0e89a0: ret
+  0x0000ffff7d0e89a4: .inst	0x00000000 ; undefined
+  0x0000ffff7d0e89a8: .inst	0x00000000 ; undefined
+  0x0000ffff7d0e89ac: .inst	0x00000000 ; undefined
+  0x0000ffff7d0e89b0: .inst	0x00000000 ; undefined
+  0x0000ffff7d0e89b4: .inst	0x00000000 ; undefined
+  0x0000ffff7d0e89b8: .inst	0x00000000 ; undefined
+  0x0000ffff7d0e89bc: .inst	0x00000000 ; undefined
+[Exception Handler]
+[Stub Code]
+  0x0000ffff7d0e89c0: b	0x0000ffff7d0dac00      ;   {no_reloc}
+[Deopt Handler Code]
+  0x0000ffff7d0e89c4: adr	x30, 0x0000ffff7d0e89c4
+  0x0000ffff7d0e89c8: b	0x0000ffff7d0b35c0      ;   {runtime_call}
+  0x0000ffff7d0e89cc: .inst	0x00000000 ; undefined
+Decoding compiled method 0x0000ffff7d0e85d0:
+Code:
+[Entry Point]
+[Verified Entry Point]
+[Constants]
+  # {method} {0x0000ffff84d3c2f8} 'main' '([Ljava/lang/String;)V' in 'HelloWorldLoop'
+  0x0000ffff7d0e8700: brk	#0x0
+  0x0000ffff7d0e8704: nop
+  0x0000ffff7d0e8708: nop
+  0x0000ffff7d0e870c: nop
+  0x0000ffff7d0e8710: nop
+  0x0000ffff7d0e8714: orr	x9, xzr, #0xffffffffffffc000
+  0x0000ffff7d0e8718: str	xzr, [sp, x9]
+  0x0000ffff7d0e871c: sub	sp, sp, #0x30
+  0x0000ffff7d0e8720: stp	x29, x30, [sp, #32]
+  0x0000ffff7d0e8724: ldr	w20, [x1]
+  0x0000ffff7d0e8728: mov	x0, x1
+  0x0000ffff7d0e872c: adr	x9, 0x0000ffff7d0e8744
+  0x0000ffff7d0e8730: mov	x8, #0x8778                	// #34680
+                                                ;   {runtime_call}
+  0x0000ffff7d0e8734: movk	x8, #0x872d, lsl #16
+  0x0000ffff7d0e8738: movk	x8, #0xffff, lsl #32
+  0x0000ffff7d0e873c: stp	xzr, x9, [sp, #-16]!
+  0x0000ffff7d0e8740: blr	x8
+  0x0000ffff7d0e8744: add	sp, sp, #0x10   ;*iload_1
+                                                ; - HelloWorldLoop::main@10 (line 6)
+
+  0x0000ffff7d0e8748: mov	w8, #0x4240                	// #16960
+  0x0000ffff7d0e874c: movk	w8, #0xf, lsl #16
+  0x0000ffff7d0e8750: cmp	w20, w8
+  0x0000ffff7d0e8754: b.ge	0x0000ffff7d0e8770  // b.tcont
+  0x0000ffff7d0e8758: mov	w10, #0x4240                	// #16960
+  0x0000ffff7d0e875c: movk	w10, #0xf, lsl #16  ;*if_icmpge
+                                                ; - HelloWorldLoop::main@13 (line 6)
+
+  0x0000ffff7d0e8760: mov	w1, #0xffffff65            	// #-155
+  0x0000ffff7d0e8764: str	w10, [sp, #4]
+  0x0000ffff7d0e8768: bl	0x0000ffff7d07efc0  ; OopMap{off=108}
+                                                ;*if_icmpge
+                                                ; - HelloWorldLoop::main@13 (line 6)
+                                                ;   {runtime_call}
+  0x0000ffff7d0e876c: brk	#0x3e7          ;*if_icmpge
+                                                ; - HelloWorldLoop::main@13 (line 6)
+
+  0x0000ffff7d0e8770: mov	w10, w20
+  0x0000ffff7d0e8774: b	0x0000ffff7d0e8760
+  0x0000ffff7d0e8778: .inst	0x00000000 ; undefined
+  0x0000ffff7d0e877c: .inst	0x00000000 ; undefined
+[Exception Handler]
+[Stub Code]
+  0x0000ffff7d0e8780: b	0x0000ffff7d0dac00      ;   {no_reloc}
+[Deopt Handler Code]
+  0x0000ffff7d0e8784: adr	x30, 0x0000ffff7d0e8784
+  0x0000ffff7d0e8788: b	0x0000ffff7d0b35c0      ;   {runtime_call}
+  0x0000ffff7d0e878c: .inst	0x00000000 ; undefined
+1000000
